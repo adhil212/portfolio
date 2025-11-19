@@ -106,10 +106,11 @@ body {
      .hero-img img {
         width: 160px;
         height: 160px;
-        position: relative;
-        bottom: 200px;
+       
     }
-
+.hero-box{
+  flex-direction: column;
+}
     .hero-name {
         font-size: 1.8rem;
     }
@@ -554,4 +555,5 @@ form {
   margin-top: 5px;
   font-size: 13px;
 }
+
 
