@@ -103,9 +103,11 @@ body {
 }
 @media (max-width: 600px) {
 
-    .hero-img img {
+     .hero-img img {
         width: 160px;
         height: 160px;
+        position: relative;
+        bottom: 200px;
     }
 
     .hero-name {
@@ -552,3 +554,4 @@ form {
   margin-top: 5px;
   font-size: 13px;
 }
+
