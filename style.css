@@ -117,6 +117,9 @@ body {
    .hero-content{
     margin: 0;
    }
+    .hero-img{
+    padding-bottom: 50px;
+   }
     h3 {
         font-size: 1.2rem;
     }
@@ -555,5 +558,6 @@ form {
   margin-top: 5px;
   font-size: 13px;
 }
+
 
 
