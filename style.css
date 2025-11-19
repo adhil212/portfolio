@@ -154,6 +154,20 @@ body {
         height: 35px;
         font-size: 15px;
     }
+  .formdiv form > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formdiv form > div > div {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .formdiv label {
+    display: block;  
+    margin-bottom: 5px;
+  }
 }
 
 #typewriter {
@@ -562,6 +576,7 @@ form {
   margin-top: 5px;
   font-size: 13px;
 }
+
 
 
 
